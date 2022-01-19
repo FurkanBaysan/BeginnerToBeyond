@@ -25,5 +25,5 @@ void printDateOfBirth() {
 	int year;
 	cout << "Enter your Date of Birth of type day/month/year:";
 	cin >> day >> month >> year;
-	cout << day << " " << month << " " << year << endl;
+	cout << "Date of Birth:" << " " << day << "." << month << "." << year << endl;
 }

@@ -20,8 +20,8 @@ void printTheNumberOfDogs() {
 	cout << "Sally has " << numberOfDogs << " dogs." << endl;
 }
 void printDateOfBirth() {
-	int month;
 	int day;
+	int month;
 	int year;
 	cout << "Enter your Date of Birth of type day/month/year:";
 	cin >> day >> month >> year;

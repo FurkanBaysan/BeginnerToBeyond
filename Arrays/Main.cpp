@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 int main() {
@@ -27,12 +28,14 @@ int main() {
 	for (int i = 0; i < size; i++) {
 		cout << "\b" << i + 1 << "." << " Test Score: " << testScores[i] << "\n";
 	}
+
+
+	// Accessing and Modifying test scores
 	testScores[0] = 100;
 	testScores[1] = 90;
 	testScores[2] = 80;
 	testScores[3] = 70;
 	testScores[4] = 60;
-
 
 	cout << endl;
 
@@ -59,6 +62,8 @@ int main() {
 	int arr[10] = { 0 };
 	arr[0] = 100;
 	arr[9] = 1000;
+	cout << "First Element: " << arr[0] << endl;
+	cout << "Last Element: " << arr[9] << endl;
 
 	return 0;
 }
